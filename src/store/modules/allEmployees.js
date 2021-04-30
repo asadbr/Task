@@ -10,15 +10,10 @@ export default {
     },
   },
   actions: {
-    getAllEmployees({ commit }, { perPage, page }) {
-      return employeesService.getEmployees(perPage, page).then((res) => {
+    getAllEmployeess({ commit }) {
+      return employeesService.getAllEmployees().then((res) => {
         commit("infoAllEmployees", res.data);
       });
-    },
-  },
-  getters: {
-    getEmployees(state) {
-      return state.employees;
     },
   },
 };

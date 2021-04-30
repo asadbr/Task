@@ -1,0 +1,166 @@
+{
+  "employees": [
+    {
+      "id": 2,
+      "name": "Maryam",
+      "surname": "Osimi",
+      "department": "IT",
+      "position": "manager",
+      "gender": "female",
+      "birthdate": "2018-06-06T00:00:00.000Z"
+    },
+    {
+      "id": 3,
+      "name": "Jovid",
+      "surname": "Maxmudov",
+      "department": "IT",
+      "position": "manager",
+      "gender": "male",
+      "birthdate": "2006-02-09T00:00:00.000Z"
+    },
+    {
+      "id": 4,
+      "name": "Shaxzod",
+      "surname": "Djabbarov",
+      "department": "Marketing",
+      "position": "teacher",
+      "gender": "male",
+      "birthdate": "2004-01-07T00:00:00.000Z"
+    },
+    {
+      "id": 5,
+      "name": "Мадина",
+      "surname": "Саидова",
+      "department": "Marketing",
+      "position": "Программист",
+      "gender": "female",
+      "birthdate": "1994-11-18"
+    },
+    {
+      "id": 6,
+      "name": "Нилуфар",
+      "surname": "Шерова",
+      "department": "IT",
+      "position": "Учительница",
+      "gender": "female",
+      "birthdate": "2021-04-25"
+    },
+    {
+      "id": 8,
+      "name": "Асридин",
+      "surname": "Фахриев",
+      "department": "Audit",
+      "position": "Бухгалтер",
+      "gender": "male",
+      "birthdate": "1999-06-27"
+    },
+    {
+      "id": 9,
+      "name": "Анахита",
+      "surname": "Сатторова",
+      "department": "Marketing",
+      "position": "Рассом",
+      "gender": "female",
+      "birthdate": "1999-10-22"
+    },
+    {
+      "id": 10,
+      "name": "Ифтихори",
+      "surname": "Хайдар",
+      "department": "IT",
+      "position": "Системчик",
+      "gender": "male",
+      "birthdate": "1997-11-30"
+    },
+    {
+      "id": 11,
+      "name": "Асадbek",
+      "surname": "Баротов",
+      "department": "IT",
+      "position": "Фронтенд Разработчик",
+      "gender": "male",
+      "birthdate": "2000-08-28T00:00:00.000Z"
+    },
+    {
+      "id": 12,
+      "name": "Maryasm",
+      "surname": "Osimi",
+      "department": "IT",
+      "position": "manager",
+      "gender": "female",
+      "birthdate": "2018-06-06T00:00:00.000Z"
+    },
+    {
+      "id": 13,
+      "name": "Jovsid",
+      "surname": "Maxmudov",
+      "department": "IT",
+      "position": "manager",
+      "gender": "male",
+      "birthdate": "2006-02-09T00:00:00.000Z"
+    },
+    {
+      "id": 14,
+      "name": "Shaxzosd",
+      "surname": "Djabbarov",
+      "department": "Marketing",
+      "position": "teacher",
+      "gender": "male",
+      "birthdate": "2004-01-07T00:00:00.000Z"
+    },
+    {
+      "id": 15,
+      "name": "Мадинаs",
+      "surname": "Саидова",
+      "department": "Marketing",
+      "position": "Программист",
+      "gender": "female",
+      "birthdate": "1994-11-18"
+    },
+    {
+      "id": 16,
+      "name": "Нилуфар",
+      "surname": "Шероsва",
+      "department": "IT",
+      "position": "Учительница",
+      "gender": "female",
+      "birthdate": "2021-04-25"
+    },
+    {
+      "id": 18,
+      "name": "Асридинs",
+      "surname": "Фахриев",
+      "department": "Audit",
+      "position": "Бухгалтер",
+      "gender": "male",
+      "birthdate": "1999-06-27"
+    },
+    {
+      "id": 19,
+      "name": "Анахитаs",
+      "surname": "Сатторова",
+      "department": "Marketing",
+      "position": "Рассом",
+      "gender": "female",
+      "birthdate": "1999-10-22"
+    },
+    {
+      "id": 20,
+      "name": "Ифтихориs",
+      "surname": "Хайдар",
+      "department": "IT",
+      "position": "Системчик",
+      "gender": "male",
+      "birthdate": "1997-11-30"
+    },
+    {
+      "id": 21,
+      "name": "Асадbeks",
+      "surname": "Баротов",
+      "department": "IT",
+      "position": "Фронтенд Разработчик",
+      "gender": "male",
+      "birthdate": "2000-08-28T00:00:00.000Z"
+    }
+  ]
+}
