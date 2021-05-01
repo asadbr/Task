@@ -13,12 +13,12 @@ const routes = [
   {
     path: "/employees",
     name: "employees",
-    component: () => import("../views/employees/EmployeesPage"),
+    component: () => import("../views/pages/employees/EmployeesPage"),
   },
   {
     path: "/employees/:id",
     name: "employees.show",
-    component: () => import("../views/employees/EmployShowPage"),
+    component: () => import("../views/pages/employees/EmployShowPage"),
     props: true,
   },
   // {

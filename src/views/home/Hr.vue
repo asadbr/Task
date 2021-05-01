@@ -24,7 +24,7 @@
 
 <script>
 import { mapState } from "vuex";
-import HrDepartmentCard from "../../components/hrDepartment/HrDepartmentCard";
+import HrDepartmentCard from "../../components/home/HrCreateCard";
 
 export default {
   name: "Hr",
@@ -101,11 +101,4 @@ export default {
 };
 </script>
 
-<style scoped>
-.row {
-  text-align: center;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-</style>
+<style scoped></style>

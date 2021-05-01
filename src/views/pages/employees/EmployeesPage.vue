@@ -19,7 +19,11 @@
               :to="{ name: 'employees.show', params: { id: +employ.id } }"
             >
               <div class="card">
-                <img src="./none.jpg" class="card-img-top" alt="..." />
+                <img
+                  src="../../../assets/img/none.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
                 <div class="card-body text-dark">
                   <div class="card-title">
                     {{ employ.name }} {{ employ.surname }}
@@ -63,7 +67,7 @@
 </template>
 
 <script>
-import { mapGetters } from "vuex";
+import { mapGetters, mapActions } from "vuex";
 
 export default {
   name: "EmployeesPage",
@@ -83,13 +87,20 @@ export default {
     ...mapGetters(["getEmployees"]),
   },
   created() {
-    this.$store.dispatch("getAllEmployees", {
-      perPage: 4,
+    this.getAllEmployees({
+      perPage: 8,
       page: this.page,
     });
+    // this.$store.dispatch("getAllEmployees", {
+    //   perPage: 4,
+    //   page: this.page,
+    // });
   },
   methods: {
-    filteredGenders: function () {
+    ...mapActions({
+      getAllEmployees: "getAllEmployees",
+    }),
+    filteredGenders() {
       return this.getEmployees.filter((employ) => {
         return this.selectGender === 0 || employ.gender === this.selectGender;
       });
@@ -98,19 +109,4 @@ export default {
 };
 </script>
 
-<style scoped>
-.link {
-  text-decoration: none;
-}
-.card:hover {
-  transform: scale(1.05);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
-}
-.row {
-  text-align: center;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-</style>
+<style scoped></style>

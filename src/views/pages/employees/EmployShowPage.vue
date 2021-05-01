@@ -134,8 +134,8 @@
 </template>
 
 <script>
-import { employeesService } from "../../services/employeesService";
-import router from "../../router";
+import { employeesService } from "../../../services/employeesService";
+import router from "../../../router";
 import Datepicker from "vuejs-datepicker";
 
 export default {
@@ -194,10 +194,4 @@ export default {
 };
 </script>
 
-<style scoped>
-.container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-</style>
+<style scoped></style>

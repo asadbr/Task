@@ -9,6 +9,13 @@
   </div>
 </template>
 
+<script>
+import Navbar from "./components/navbar/Navbar";
+export default {
+  components: { Navbar },
+};
+</script>
+
 <style lang="scss">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -17,9 +24,3 @@
   color: #2c3e50;
 }
 </style>
-<script>
-import Navbar from "./components/navbar/Navbar";
-export default {
-  components: { Navbar },
-};
-</script>

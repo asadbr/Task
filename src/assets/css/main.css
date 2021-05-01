@@ -1,0 +1,12 @@
+@import "_employeesPage.css";
+@import "_employeesShowPage.css";
+@import "_hr.css";
+
+@import "~nprogress/nprogress.css";
+.crc{
+    color: #fffaeb;
+}
+
+body{
+    background-color: #e7f8e9;
+}
