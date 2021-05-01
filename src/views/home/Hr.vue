@@ -1,34 +1,23 @@
 <template>
   <div class="row">
-    <HrDepartmentCard
-      label="Количество Сотрудников"
-      :value="employees.length"
-    />
-    <HrDepartmentCard label="Количество Мужчин" :value="countMans()" />
-    <HrDepartmentCard label="Количество Женщин" :value="countWomans()" />
-    <HrDepartmentCard label="Отдел Айти" :value="countITDepartment()" />
-    <HrDepartmentCard
-      label="Отдел Бухгалтерия"
-      :value="countAuditDepartment()"
-    />
-    <HrDepartmentCard
-      label="Отдел Маркетинг"
-      :value="countMarketingDepartment()"
-    />
-    <HrDepartmentCard
-      label="Средний Возраст Сотрудников"
-      :value="countMidOld()"
-    />
+    <HrCreateCard label="Количество Сотрудников" :value="employees.length" />
+    <HrCreateCard label="Количество Мужчин" :value="countMans()" />
+    <HrCreateCard label="Количество Женщин" :value="countWomans()" />
+    <HrCreateCard label="Отдел Айти" :value="countITDepartment()" />
+    <HrCreateCard label="Отдел Бухгалтерия" :value="countAuditDepartment()" />
+    <HrCreateCard label="Отдел Маркетинг" :value="countMarketingDepartment()" />
+    <HrCreateCard label="Средний Возраст Сотрудников" :value="countMidOld()" />
   </div>
 </template>
 
 <script>
-import { mapState } from "vuex";
-import HrDepartmentCard from "../../components/home/HrCreateCard";
+import { mapActions, mapState } from "vuex";
+
+import HrCreateCard from "../../components/home/HrCreateCard";
 
 export default {
   name: "Hr",
-  components: { HrDepartmentCard },
+  components: { HrCreateCard },
   computed: {
     ...mapState({
       employees: (state) => state.allEmployees.employees,
@@ -36,9 +25,12 @@ export default {
   },
 
   created() {
-    this.$store.dispatch("getAllEmployeess");
+    this.getAllEmployees();
   },
   methods: {
+    ...mapActions({
+      getAllEmployees: "getAllEmployeess",
+    }),
     countMans() {
       let k = 0;
       for (let item of this.employees) {

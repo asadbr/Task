@@ -1,19 +1,19 @@
 import { apiService } from "./apiService";
 
 export const employeesService = {
-  getEmployees(perPage, page) {
+  getEmployees: (perPage, page) => {
     return apiService.get("employees?_limit=" + perPage + "&_page=" + page);
   },
-  getAllEmployees() {
+  getAllEmployees: () => {
     return apiService.get("employees");
   },
-  getEmploy(id) {
+  getEmploy: (id) => {
     return apiService.get("employees/" + id);
   },
-  updateEmploy(id, params) {
+  updateEmploy: (id, params) => {
     return apiService.put("employees/" + id, params);
   },
-  deleteEmploy(id) {
+  deleteEmploy: (id) => {
     return apiService.delete("employees/" + id);
   },
 };

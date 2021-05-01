@@ -15,7 +15,7 @@
 
 <script>
 export default {
-  name: "HrDepartmentCard",
+  name: "HrCreateCard",
   props: {
     label: {
       type: String,
