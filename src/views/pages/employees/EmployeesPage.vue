@@ -74,10 +74,10 @@ export default {
   data() {
     return {
       sex: [
-        { id: "male", gender: "Мужской" },
-        { id: "female", gender: "Женский" },
+        { id: 1, gender: "Мужской" },
+        { id: 2, gender: "Женский" },
       ],
-      selectGender: 0,
+      selectGender: "0",
     };
   },
   computed: {
@@ -94,7 +94,7 @@ export default {
     // this.$store.dispatch("getAllEmployees", {
     //   perPage: 4,
     //   page: this.page,
-    // });
+    // });ё
   },
   methods: {
     ...mapActions({
@@ -102,7 +102,9 @@ export default {
     }),
     filteredGenders() {
       return this.getEmployees.filter((employ) => {
-        return this.selectGender === 0 || employ.gender === this.selectGender;
+        return (
+          this.selectGender === "0" || employ.gender_id === this.selectGender
+        );
       });
     },
   },

@@ -2,6 +2,8 @@
   "employees": [
     {
       "id": 2,
+      "gend_id": 0,
+      "gender_id": 2,
       "name": "Maryam",
       "surname": "Osimi",
       "department": "IT",
@@ -11,6 +13,8 @@
     },
     {
       "id": 3,
+      "gend_id": 0,
+      "gender_id": 1,
       "name": "Jovid",
       "surname": "Maxmudov",
       "department": "IT",
@@ -20,6 +24,7 @@
     },
     {
       "id": 4,
+      "gender_id": 1,
       "name": "Shaxzod",
       "surname": "Djabbarov",
       "department": "Marketing",
@@ -29,6 +34,7 @@
     },
     {
       "id": 5,
+      "gender_id": 2,
       "name": "Мадина",
       "surname": "Саидова",
       "department": "Marketing",
@@ -38,6 +44,7 @@
     },
     {
       "id": 6,
+      "gender_id": 2,
       "name": "Нилуфар",
       "surname": "Шерова",
       "department": "IT",
@@ -47,15 +54,17 @@
     },
     {
       "id": 8,
+      "gender_id": 1,
       "name": "Асридин",
       "surname": "Фахриев",
       "department": "Audit",
       "position": "Бухгалтер",
       "gender": "male",
-      "birthdate": "1999-06-27"
+      "birthdate": "1999-06-16T00:00:00.000Z"
     },
     {
       "id": 9,
+      "gender_id": 2,
       "name": "Анахита",
       "surname": "Сатторова",
       "department": "Marketing",
@@ -65,6 +74,7 @@
     },
     {
       "id": 10,
+      "gender_id": 1,
       "name": "Ифтихори",
       "surname": "Хайдар",
       "department": "IT",
@@ -74,6 +84,7 @@
     },
     {
       "id": 11,
+      "gender_id": 1,
       "name": "Асадbek",
       "surname": "Баротов",
       "department": "IT",
@@ -83,6 +94,7 @@
     },
     {
       "id": 12,
+      "gender_id": 2,
       "name": "Maryasm",
       "surname": "Osimi",
       "department": "IT",
@@ -92,6 +104,7 @@
     },
     {
       "id": 13,
+      "gender_id": 1,
       "name": "Jovsid",
       "surname": "Maxmudov",
       "department": "IT",
@@ -101,6 +114,7 @@
     },
     {
       "id": 14,
+      "gender_id": 1,
       "name": "Shaxzosd",
       "surname": "Djabbarov",
       "department": "Marketing",
@@ -110,6 +124,7 @@
     },
     {
       "id": 15,
+      "gender_id": 2,
       "name": "Мадинаs",
       "surname": "Саидова",
       "department": "Marketing",
@@ -119,6 +134,7 @@
     },
     {
       "id": 16,
+      "gender_id": 2,
       "name": "Нилуфар",
       "surname": "Шероsва",
       "department": "IT",
@@ -128,6 +144,7 @@
     },
     {
       "id": 18,
+      "gender_id": 1,
       "name": "Асридинs",
       "surname": "Фахриев",
       "department": "Audit",
@@ -137,6 +154,7 @@
     },
     {
       "id": 19,
+      "gender_id": 2,
       "name": "Анахитаs",
       "surname": "Сатторова",
       "department": "Marketing",
@@ -146,6 +164,7 @@
     },
     {
       "id": 20,
+      "gender_id": 1,
       "name": "Ифтихориs",
       "surname": "Хайдар",
       "department": "IT",
@@ -155,6 +174,7 @@
     },
     {
       "id": 21,
+      "gender_id": 1,
       "name": "Асадbeks",
       "surname": "Баротов",
       "department": "IT",
