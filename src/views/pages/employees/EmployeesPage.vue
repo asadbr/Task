@@ -77,7 +77,7 @@ export default {
         { id: 1, gender: "Мужской" },
         { id: 2, gender: "Женский" },
       ],
-      selectGender: "0",
+      selectGender: 0,
     };
   },
   computed: {
@@ -102,9 +102,7 @@ export default {
     }),
     filteredGenders() {
       return this.getEmployees.filter((employ) => {
-        return (
-          this.selectGender === "0" || employ.gender_id === this.selectGender
-        );
+        return this.selectGender == 0 || employ.gender_id === this.selectGender;
       });
     },
   },
