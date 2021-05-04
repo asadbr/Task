@@ -175,6 +175,9 @@ export default {
         router.push("/employees");
       });
     },
+    /**
+     * Method to cancel  state of changing
+     */
     cancel() {
       this.save = false;
       this.query = JSON.parse(JSON.stringify(this.employ));
