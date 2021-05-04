@@ -100,6 +100,10 @@ export default {
     ...mapActions({
       getAllEmployees: "getAllEmployees",
     }),
+    /**
+     * Method to filter employees by gender_id
+     * @returns {*[]}
+     */
     filteredGenders() {
       return this.getEmployees.filter((employ) => {
         return this.selectGender == 0 || employ.gender_id === this.selectGender;

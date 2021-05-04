@@ -31,6 +31,10 @@ export default {
     ...mapActions({
       getAllEmployees: "getAllEmployeess",
     }),
+    /**
+     * Method to count Number of mans of Employees
+     * @returns {number}
+     */
     countMans() {
       let k = 0;
       for (let item of this.employees) {
@@ -40,6 +44,10 @@ export default {
       }
       return k;
     },
+    /**
+     * Method to count Number of womans of Employees
+     * @returns {number}
+     */
     countWomans() {
       let k = 0;
       for (let item of this.employees) {
@@ -49,6 +57,10 @@ export default {
       }
       return k;
     },
+    /**
+     * Method to count Number of Employees in IT Department
+     * @returns {number}
+     */
     countITDepartment() {
       let k = 0;
       for (let item of this.employees) {
@@ -58,6 +70,10 @@ export default {
       }
       return k;
     },
+    /**
+     * Method to count Number of Employees in Audit Department
+     * @returns {number}
+     */
     countAuditDepartment() {
       let k = 0;
       for (let item of this.employees) {
@@ -67,6 +83,10 @@ export default {
       }
       return k;
     },
+    /**
+     * Method to count Number of Employees in Marketing Department
+     * @returns {number}
+     */
     countMarketingDepartment() {
       let k = 0;
       for (let item of this.employees) {
@@ -77,6 +97,10 @@ export default {
 
       return k;
     },
+    /**
+     * Method to count Mid Old of employees
+     * @returns {number}
+     */
     countMidOld() {
       var sum = 0;
       for (let item of this.employees) {
